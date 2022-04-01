@@ -36,12 +36,23 @@ This will print the best fitting values as well as the ML estimation.
 ### Available kernels
 
 - Indexes
-$$m_{\rm A}-m_{\rm B} = -2.5\log\left( \frac{f^{1}_{\rm A} + f^{2}_{\rm A}\beta^2}{f^{1}_{\rm B} + f^{2}_{\rm B}\beta^2} \right),$$
-where $\beta\equiv R_{2}/R_{1}$. This definition is for a two-body SED in the colour A$-$B filters. In case of one star $\beta = 0$.
+<!-- $$
+m_{\rm A}-m_{\rm B} = -2.5\log\left( \frac{f^{1}_{\rm A} + f^{2}_{\rm A}\beta^2}{f^{1}_{\rm B} + f^{2}_{\rm B}\beta^2} \right),
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=m_%7B%5Crm%20A%7D-m_%7B%5Crm%20B%7D%20%3D%20-2.5%5Clog%5Cleft(%20%5Cfrac%7Bf%5E%7B1%7D_%7B%5Crm%20A%7D%20%2B%20f%5E%7B2%7D_%7B%5Crm%20A%7D%5Cbeta%5E2%7D%7Bf%5E%7B1%7D_%7B%5Crm%20B%7D%20%2B%20f%5E%7B2%7D_%7B%5Crm%20B%7D%5Cbeta%5E2%7D%20%5Cright)%2C"></div>
+
+where <!-- $\beta\equiv R_{2}/R_{1}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cbeta%5Cequiv%20R_%7B2%7D%2FR_%7B1%7D">. This definition is for a two-body SED in the colour A-B filters. In case of one star <!-- $\beta = 0$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cbeta%20%3D%200">.
+
 
 - Pogson
-$$ m_{\rm A} = -2.5\log\left( \left[f^{1}_{A} + f^{2}_{\rm A}\beta^2 \right]\alpha^2\right),$$
-where $\alpha\equiv R_{1}/D$, with $D$ the distance to the star.
+<!-- $$ 
+m_{\rm A} = -2.5\log\left( \left[f^{1}_{A} + f^{2}_{\rm A}\beta^2 \right]\alpha^2\right),
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=m_%7B%5Crm%20A%7D%20%3D%20-2.5%5Clog%5Cleft(%20%5Cleft%5Bf%5E%7B1%7D_%7BA%7D%20%2B%20f%5E%7B2%7D_%7B%5Crm%20A%7D%5Cbeta%5E2%20%5Cright%5D%5Calpha%5E2%5Cright)%2C"></div>
+
+where <!-- $\alpha\equiv R_{1}/D$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha%5Cequiv%20R_%7B1%7D%2FD">, with D the distance to the star.
 
 ### To do list
 
